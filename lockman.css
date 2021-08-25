@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{margin:0;padding:0;}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size:16px;
+	
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+}
+section{
+	padding:80px 0px;
+	
+}
+.topbermain{
+	background:#f5f5f5;
+	
+}
+
+
+
+
+.container{
+	width:1140px;
+	border:1px solid black;
+	padding-right:15px;
+	padding-left:15px;
+	margin:auto;
+}
+.email {
+    width: 758px;
+    float: left;
+	padding:15px 10px;
+}
+
+.phone {
+    width: 200px;
+    float: left;
+	padding:15px 10px;
+	border-right:1px solid #ddd;
+    border-left:1px solid #ddd;
+}
+.social {
+	width: 140px;
+	float: left;}
+	
+.topberwraper {
+    overflow: hidden;
+}
+.social a{
+	display:block;
+	float:left;
+	padding:15px;
+	border-right:1px solid #ddd;
+	color:#2b2b2b;
+}
+.social a:first-child{
+	border-left:1px solid #ddd;
+	
+}
+.phone i{
+	color:#ff5200;
+	
+}
+
+.email i{
+	color:#ff5200;
+}
+.social i:hover{
+	color:#ff5200;
+	
+}
+.logo img{
+	width:150px;
+	margin-top:20px;
+	float:left;
+	
+}
+.primarywraper{
+	overflow:hidden;
+	width:100%;
+	
+}
+.menu{
+	width:990px;
+	float:left;
+	
+}
+ul.mainmenuitem{
+	list-style:none;
+	float:right;
+	
+	
+	
+}
+ul.mainmenuitem li{
+	float:left;
+}
+ul.mainmenuitem li a {
+	text-decoration:none;
+	font-family:Oswald;
+	text-transform:uppercase;
+	font-size:16px;
+	display:block;
+	padding:30px 15px;
+	color:#0e0e0e;
+	font-weight:500;
+	transition:0.5s;
+}
+ul.mainmenuitem li a:hover{
+	color:#ff5200;
+	
+}
+#homeslider{
+	background:url(image/samuel-bryngelsson-sxaCHsKpg3Y-unsplash.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	padding:0px;
+	
+}
+.slidercontent{
+	color:#1d807b;
+	width:600px;
+	
+}
+.slidercontent h1{
+	font-size:50px;
+	font-weight:700px;
+	text-transform:uppercase;
+	margin-bottom:30px;
+	margin-top:120px;
+	float:left;
+}
+.slidercontent p{
+	font-weight:600;
+	line-height:25px;
+	width:490px;
+	margin-bottom:30px;
+	
+	
+}
+button#sliderworkbutton{
+	background:#ff5200;
+	color:white;
+	border:none;
+	padding:15px 30px;
+	font-size:16px;
+	font-weight:600;
+	border-radius:5px;
+	margin-bottom:120px;
+}
+.sliderNav{
+	width:60px;
+	margin:auto;
+	padding:40px 0px;
+	
+	
+	
+}
+.sliderNav span{
+	width:10px;
+	height:10px;
+	background:transparent;
+	border:4px solid #ddd;
+	display:block;
+	border-radius:100%;
+	cursor:pointer;
+	float:left;
+	margin:5px 5px;
+	
+}
+.sliderNav span:last-child{
+	
+	background:#ff5200;
+	border-color:#ff5200;
+}
+#services{
+	background:#f6f6f6;
+	
+	
+}
+.sboxWrapper{
+		overflow:hidden;
+		
+	
+
+}
+.singlebox{
+	width:225px;
+	background:white;
+	padding:15px;
+	float:left;
+	margin-right:30px;
+	transition:0.3s;
+	
+	
+}
+.singlebox:hover{
+	background:#fb5200;
+	color:white!important;
+	cursor:pointer;
+	
+}
+.singlebox i{
+	color:#fb5200;
+	
+}
+.singlebox:hover h2,i{
+	color:white;
+	
+}
+.singlebox:hover .sboxlink a{
+	color:white!important;
+	
+}
+
+.sboxtitle{
+	text-align:center;
+	width:150px;
+	margin:auto;
+	
+}
+.sboxtitle h2{
+	font-size:26px;
+	letter-spacing:-1.5;
+	color:#333;
+	line-height:28px;
+	text-transform:uppercase;
+	margin:30px 0px;
+	
+}
+.sboxicon{
+	text-align:center;
+	font-size:40px;
+	color:#fb5200;
+	margin:30px 0px;
+	
+}
+.sboxdesc{
+	text-align:center;
+	margin:30px 0px;
+	
+	
+	
+}
+.sboxlink{
+	text-align:center;
+	margin:30px 0px;
+}
+..singlebox:hover a {
+	text-decoration:none;
+	color:#fb5200;
+	font-weight:4000px;
+	
+	
+}
+.sboxactive{
+	background:#fb5200;
+	color:white;
+	
+	
+}
+.singlebox i.fa-long-arrow-alt-right{color:#fb5200;}
+.sboxactive h2{color:white;}
+.sboxactive a{color:white;}
+.sboxactive i{color:white;}
+.singlebox:hover i.fa-long-arrow-alt-right{color:white!important;}
+
+.singlebox:hover .sboxicon i{color:white;}
+
+
